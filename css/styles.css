@@ -1,0 +1,168 @@
+/* Font */
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+body {
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'DM Serif Display', serif;
+    padding: 1.5rem;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+} */
+
+/* Bar styling option 2 */
+.input-container {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 1rem; */
+    margin: 2rem 0;
+    /* flex-wrap: wrap; */
+}
+
+.input-container input[type="text"] {
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.input-container button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(173, 216, 230);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10%;
+}
+
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.carousel-container img {
+    width: 40%;
+    height: auto;
+    margin: 2rem 0;
+    border-radius: 50%;
+}
+
+.instruct {
+    border: 2px solid black;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 10px;
+}
+
+h3 {
+    border: 2px solid red;
+    margin: 1rem auto;
+    padding: 5px;
+}
+
+h4 {
+    border: 2px solid green;
+    margin: 1rem auto;
+    padding: 5px;
+}
+
+h6 {
+    border: 2px solid purple;
+    padding: 0.2rem;
+    margin: 0.1rem 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+
+.controls button {
+    padding: 0.5rem 1rem;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 1rem;
+    width: 10%;
+}
+
+
+/*media queries at 830 to change display */
+
+
+/* Bar styling option 1 */
+/*
+.input-container {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+input[type="text"] {
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: brown;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.carousel-container {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+.controls {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+#prev,
+#next {
+	padding: 10px 20px;
+	background-color: brown;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 0 10px;
+}
+*/
