@@ -72,7 +72,7 @@ body {
 
 .instruct {
     /* border: 2px solid black; */
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -138,7 +138,7 @@ h6 {
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        width: 10%;
+        width: 80px;
     }
 
     .controls {
@@ -149,10 +149,10 @@ h6 {
         text-align: center;
     }
     
-    .controls button:first-child {
+    /* .controls button:first-child {
         text-align: center;
-    }
-    /* .controls button {
+    } */
+    .controls button {
         padding: 0.5rem 1rem;
         background-color: lightblue;
         color: white;
@@ -160,9 +160,9 @@ h6 {
         border-radius: 5px;
         cursor: pointer;
         margin: 0 1rem;
-        width: 10%;
+        width: 80px;
         text-align: center;
-    } */
+    }
 }
 
 
