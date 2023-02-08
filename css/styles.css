@@ -71,7 +71,7 @@ body {
 }
 
 .instruct {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 1rem 0;
     display: flex;
     justify-content: space-evenly;
@@ -81,19 +81,19 @@ body {
 }
 
 h3 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 1rem auto;
     padding: 5px;
 }
 
 h4 {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: 1rem auto;
     padding: 5px;
 }
 
 h6 {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     padding: 0.2rem;
     margin: 0.1rem 0;
 }
@@ -113,6 +113,56 @@ h6 {
     cursor: pointer;
     margin: 0 1rem;
     width: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+        /* margin: 1rem 0; */
+    }
+    
+    .input-container input[type="text"] {
+        width: 50%;
+        padding: 0.5rem;
+        border-radius: 5px;
+    }
+    
+    .input-container button {
+        /* margin-left: 0.5rem; */
+        padding: 0.5rem 1rem;
+        background-color: rgb(173, 216, 230);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 10%;
+    }
+
+    .controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    
+    .controls button:first-child {
+        text-align: center;
+    }
+    /* .controls button {
+        padding: 0.5rem 1rem;
+        background-color: lightblue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 1rem;
+        width: 10%;
+        text-align: center;
+    } */
 }
 
 
