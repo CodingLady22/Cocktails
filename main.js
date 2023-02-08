@@ -20,14 +20,14 @@ function getDrinks() {
 function renderSlide(index) {
   let carouselContainer = document.querySelector(".carousel-container");
   carouselContainer.innerHTML = `
-    <h2>${drinks[index].strDrink}</h2>
+    <h2>Name: ${drinks[index].strDrink}</h2>
     <img src="${drinks[index].strDrinkThumb}" alt="drink-thumbnail">
     `;
 
     let instruct = document.querySelector(".instruct");
     instruct.innerHTML = `
     <h3>${drinks[index].strInstructions}</h3>
-    <h4>${drinks[index].strInstructionsIT}</h4>
+    <h4> ${drinks[index].strInstructionsIT}</h4>
     `
     // <h5>${drinks[index].strIngredient1}</h5>
 
