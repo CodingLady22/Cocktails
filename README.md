@@ -1,9 +1,39 @@
 # Cocktail Guide
 
 ## About
-The website allows it's user to select a brand of cocktail to get a variety of options for that cocktail.
+A simple web application that allows you to search for cocktail recipes and view details about each recipe, including ingredients, method of preparation and an image of the finished cocktail.
 
 * Live Link: https://codinglady22.github.io/Cocktails/
 
 ## How it was made
-The website was made using HTML, CSS and JavaScript with the cocktaildb api
+* HTML
+* CSS
+* JavaScript
+* API
+
+## Features
+* Search for cocktail recipes by name
+* View details about each recipe, including ingredients, method of preparation and an image of the finished cocktail
+* Clean and intuitive user interface
+
+### API
+The app uses an API to fetch details about cocktails. The API documentation can be found at https://www.thecocktaildb.com/api.php.
+
+### Getting Started
+To run this project locally, follow these steps:
+
+Clone the repository to your local machine:
+
+Copy code
+git clone https://github.com/[YOUR-USERNAME]/cocktail-recipe-finder.git
+Navigate to the project directory:
+
+Copy code
+cd cocktail-recipe-finder
+Open the index.html file in your browser to launch the application.
+
+### Contributions
+Contributions are welcome! If you have an idea for a new feature or find a bug, feel free to open an issue or submit a pull request.
+
+### Liscense
+This project is licensed under the MIT license.
