@@ -18,6 +18,9 @@ A simple web application that allows you to search for cocktail recipes and view
 ### API
 The app uses an API to fetch details about cocktails. The API documentation can be found at https://www.thecocktaildb.com/api.php.
 
+### Optimization
+Add a dark mode 
+
 ### Getting Started
 To run this project locally, follow these steps:
 
