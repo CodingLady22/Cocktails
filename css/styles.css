@@ -63,10 +63,8 @@ body {
     padding: 0 1rem;
     text-align: justify;
 }
-.instructE {
-    padding: 0 1rem;
-    width: 50%;
-}
+
+.instructE,
 .instructI {
     padding: 0 1rem;
     width: 50%;
@@ -139,6 +137,7 @@ h6 {
     .instructE,
     .instructI {
         border: none;
+        width: 100%;
     }
 
     .controls {
