@@ -16,27 +16,14 @@ body {
     margin: 0 auto;
 }
 
-/* .slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-}
 
-.slide img {
-    width: 100%;
-    height: auto;
-} */
 
 /* Bar styling option 2 */
+
 .input-container {
     display: flex;
     justify-content: center;
-    /* margin-bottom: 1rem; */
     margin: 2rem 0;
-    /* flex-wrap: wrap; */
 }
 
 .input-container input[type="text"] {
@@ -71,29 +58,28 @@ body {
 }
 
 .instruct {
-    /* border: 2px solid black; */
     margin: 0.5rem 0;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 1rem;
-    gap: 10px;
+    padding: 0 1rem;
+}
+.instructE {
+    padding: 0 1rem;
+}
+.instructI {
+    padding: 0 1rem;
 }
 
 h3 {
-    /* border: 2px solid red; */
     margin: 1rem auto;
     padding: 5px;
 }
 
 h4 {
-    /* border: 2px solid green; */
     margin: 1rem auto;
     padding: 5px;
 }
 
 h6 {
-    /* border: 2px solid purple; */
     padding: 0.2rem;
     margin: 0.1rem 0;
 }
@@ -114,6 +100,8 @@ h6 {
     margin: 0 1rem;
     width: 10%;
 }
+
+/*media queries at 800 to change display */
 
 @media screen and (max-width: 800px) {
     .input-container {
@@ -141,6 +129,15 @@ h6 {
         width: 80px;
     }
 
+    .instruct {
+        flex-wrap: wrap;
+    }
+
+    .instructE,
+    .instructI {
+        border: none;
+    }
+
     .controls {
         display: flex;
         flex-direction: column;
@@ -166,7 +163,7 @@ h6 {
 }
 
 
-/*media queries at 830 to change display */
+
 
 
 /* Bar styling option 1 */
