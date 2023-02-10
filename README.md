@@ -9,7 +9,6 @@ A simple web application that allows you to search for cocktail recipes and view
 * HTML
 * CSS
 * JavaScript
-* API
 
 ## Features
 * Search for cocktail recipes by name
