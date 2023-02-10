@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 Clone the repository to your local machine:
 
 Copy code
-git clone https://github.com/[YOUR-USERNAME]/cocktail-recipe-finder.git
+git clone https://github.com/CodingLady22/cocktails.git
 Navigate to the project directory:
 
 Copy code
