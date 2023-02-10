@@ -21,7 +21,7 @@ The app uses an API to fetch details about cocktails. The API documentation can 
 ### Getting Started
 To run this project locally, follow these steps:
 
-Clone the repository to your local machine:
+* Clone the repository to your local machine:
 
 Copy code
 git clone https://github.com/CodingLady22/cocktails.git
