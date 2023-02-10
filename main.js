@@ -24,12 +24,14 @@ function renderSlide(index) {
     <img src="${drinks[index].strDrinkThumb}" alt="drink-thumbnail">
     `;
 
-    let instruct = document.querySelector(".instruct");
-    instruct.innerHTML = `
-    <h3>${drinks[index].strInstructions}</h3>
-    <h4> ${drinks[index].strInstructionsIT}</h4>
+    let instructE = document.querySelector(".instructE");
+    instructE.innerHTML = `
+    <h3>English - ${drinks[index].strInstructions}</h3>
     `
-    // <h5>${drinks[index].strIngredient1}</h5>
+    let instructI = document.querySelector(".instructI");
+    instructI.innerHTML = `
+    <h4>Italian - ${drinks[index].strInstructionsIT}</h4>
+    `
 
 
   for (let i = 1; i < 16; i++) {
