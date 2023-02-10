@@ -23,13 +23,17 @@ To run this project locally, follow these steps:
 
 * Clone the repository to your local machine:
 
+```
 Copy code
 git clone https://github.com/CodingLady22/cocktails.git
 Navigate to the project directory:
+```
 
+``
 Copy code
 cd cocktail-recipe-finder
 Open the index.html file in your browser to launch the application.
+``
 
 ### Contributions
 Contributions are welcome! If you have an idea for a new feature or find a bug, feel free to open an issue or submit a pull request.
